@@ -6,7 +6,7 @@ const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <PrimeiroComponente />
+    <PrimeiroComponente valor='Bom dia'/>
   </div>
 );
 
