@@ -4,17 +4,19 @@ import { createRoot } from "react-dom/client";
 // import CompA, { CompB as B } from "./componentes/DoisComponentes";
 // import MultiElementos from "./componentes/MultiElementos";
 // import FamiliaSilva from "./componentes/FamiliaSilva";
-import Familia from "./componentes/Familia";
-import Membro from "./componentes/Membro";
+// import Familia from "./componentes/Familia";
+// import Membro from "./componentes/Membro";
+import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 
 const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <Familia sobrenome=" Silva" >
+    <ComponenteComFuncao />
+    {/* <Familia sobrenome=" Silva" >
       <Membro nome="Rafael" />
       <Membro nome="Daniela" />
-    </Familia>
+    </Familia> */}
     {/* <FamiliaSilva/> */}
     {/* <MultiElementos /> */}
     {/* <CompA valor="Olá eu sou A!" />
