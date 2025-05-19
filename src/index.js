@@ -1,15 +1,17 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 //import PrimeiroComponente from "./componentes/PrimeiroComponente";
-import { CompA, CompB as B } from "./componentes/DoisComponentes";
+//import { CompA, CompB as B } from "./componentes/DoisComponentes";
+import MultiElementos from "./componentes/MultiElementos";
 
 const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <CompA valor="Olá eu sou A!" />
-    <B valor="B na área!" />
-    {/* <PrimeiroComponente valor='Bom dia'/> */}
+    <MultiElementos />
+    {/* <CompA valor="Olá eu sou A!" />
+    <B valor="B na área!" /> 
+    <PrimeiroComponente valor='Bom dia'/> */}
   </div>
 );
 
