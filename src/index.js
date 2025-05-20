@@ -9,13 +9,15 @@ import { createRoot } from "react-dom/client";
 // import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 // import Pai from "./componentes/Pai";
 // import ComponenteClasse from "./componentes/ComponenteClasse";
-import Contador from "./componentes/Contador";
+// import Contador from "./componentes/Contador";
+import Hook from "./componentes/Hook";
 
 const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <Contador numeroInicial = {1000} />
+    <Hook />
+    {/* <Contador numeroInicial = {1000} /> */}
     {/* <ComponenteClasse valor="Sou um componente de Classe" /> */}
     {/* <Pai /> */}
     {/* <Familia sobrenome=" Silva" >
