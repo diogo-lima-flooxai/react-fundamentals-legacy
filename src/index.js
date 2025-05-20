@@ -6,13 +6,14 @@ import { createRoot } from "react-dom/client";
 // import FamiliaSilva from "./componentes/FamiliaSilva";
 // import Familia from "./componentes/Familia";
 // import Membro from "./componentes/Membro";
-import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
+// import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
+import Pai from "./componentes/Pai";
 
 const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <ComponenteComFuncao />
+    <Pai />
     {/* <Familia sobrenome=" Silva" >
       <Membro nome="Rafael" />
       <Membro nome="Daniela" />
