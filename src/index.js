@@ -7,13 +7,15 @@ import { createRoot } from "react-dom/client";
 // import Familia from "./componentes/Familia";
 // import Membro from "./componentes/Membro";
 // import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
-import Pai from "./componentes/Pai";
+// import Pai from "./componentes/Pai";
+import ComponenteClasse from "./componentes/ComponenteClasse";
 
 const elemento = document.getElementById("root");
 const root = createRoot(elemento);
 root.render(
   <div>
-    <Pai />
+    <ComponenteClasse valor="Sou um componente de Classe" />
+    {/* <Pai /> */}
     {/* <Familia sobrenome=" Silva" >
       <Membro nome="Rafael" />
       <Membro nome="Daniela" />
